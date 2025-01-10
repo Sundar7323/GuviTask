@@ -11,10 +11,9 @@ import com.aventstack.extentreports.ExtentTest;
 public class utils {
 
 	public static WebDriver driver;
-	public static ExtentReports extent;
 	public static ExtentTest test;
 	public String testName;
-	ExtentReports exreport;
+	public static ExtentReports exreport;
 	
 	public void launchBrowser() {
 		driver = new ChromeDriver();

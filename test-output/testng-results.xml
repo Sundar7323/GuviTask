@@ -1,70 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-28T02:57:24 IST" name="demoblazeSuite" finished-at="2024-12-28T02:57:29 IST" duration-ms="4579">
+  <suite started-at="2024-12-28T03:58:11 IST" name="demoblazeSuite" finished-at="2024-12-28T03:58:18 IST" duration-ms="7316">
     <groups>
     </groups>
-    <test started-at="2024-12-28T02:57:24 IST" name="Test" finished-at="2024-12-28T02:57:29 IST" duration-ms="4579">
+    <test started-at="2024-12-28T03:58:11 IST" name="Test" finished-at="2024-12-28T03:58:18 IST" duration-ms="7316">
       <class name="task24.TC2LoginTestpage">
-        <test-method is-config="true" signature="Beforetesting()[pri:0, instance:task24.TC2LoginTestpage@7e057f43]" started-at="2024-12-28T02:57:27 IST" name="Beforetesting" finished-at="2024-12-28T02:57:27 IST" depends-on-methods="task24.basedemoblaze.browserLaunch" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Beforetesting()[pri:0, instance:task24.TC2LoginTestpage@7e057f43]" started-at="2024-12-28T03:58:15 IST" name="Beforetesting" finished-at="2024-12-28T03:58:15 IST" depends-on-methods="task24.basedemoblaze.browserLaunch" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforetesting -->
-        <test-method is-config="true" signature="testdetails()[pri:0, instance:task24.TC2LoginTestpage@7e057f43]" started-at="2024-12-28T02:57:29 IST" name="testdetails" finished-at="2024-12-28T02:57:29 IST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.exreport" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.exreport" is null
-at task24.basedemoblaze.testdetails(basedemoblaze.java:26)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="testdetails()[pri:0, instance:task24.TC2LoginTestpage@7e057f43]" started-at="2024-12-28T03:58:17 IST" name="testdetails" finished-at="2024-12-28T03:58:17 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testdetails -->
-        <test-method signature="Login()[pri:2, instance:task24.TC2LoginTestpage@7e057f43]" started-at="2024-12-28T02:57:29 IST" name="Login" finished-at="2024-12-28T02:57:29 IST" duration-ms="1" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="Login()[pri:2, instance:task24.TC2LoginTestpage@7e057f43]" started-at="2024-12-28T03:58:17 IST" name="Login" finished-at="2024-12-28T03:58:18 IST" duration-ms="1151" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.exreport" is null]]>
+              <![CDATA[element click intercepted: Element <a class="nav-link" href="#" id="login2" data-toggle="modal" data-target="#logInModal" style="display: block;">...</a> is not clickable at point (1121, 37). Other element would receive the click: <div class="modal fade show" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel" style="display: block;">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2b87c4532490a3ac0427bd16bb94af85, clickElement {id=f.A858377A8F983D3BA5EF7BDB80F659AB.d.B532AD4575B20A109A60D93E89EA872A.e.103}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\it185\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57576}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57576/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2b87c4532490a3ac0427bd16bb94af85)] -> id: login2]
+Session ID: 2b87c4532490a3ac0427bd16bb94af85]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.exreport" is null
-at task24.basedemoblaze.testdetails(basedemoblaze.java:26)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link" href="#" id="login2" data-toggle="modal" data-target="#logInModal" style="display: block;">...</a> is not clickable at point (1121, 37). Other element would receive the click: <div class="modal fade show" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel" style="display: block;">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2b87c4532490a3ac0427bd16bb94af85, clickElement {id=f.A858377A8F983D3BA5EF7BDB80F659AB.d.B532AD4575B20A109A60D93E89EA872A.e.103}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\it185\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57576}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57576/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2b87c4532490a3ac0427bd16bb94af85)] -> id: login2]
+Session ID: 2b87c4532490a3ac0427bd16bb94af85
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at task24.Login.click(Login.java:23)
+at task24.TC2LoginTestpage.Login(TC2LoginTestpage.java:18)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:739)
 at org.testng.TestRunner.run(TestRunner.java:614)
@@ -83,37 +84,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
       </class> <!-- task24.TC2LoginTestpage -->
       <class name="task24.TC1Signuptestclass">
-        <test-method is-config="true" signature="Reports()[pri:0, instance:task24.TC1Signuptestclass@1caa0244]" started-at="2024-12-28T02:57:24 IST" name="Reports" finished-at="2024-12-28T02:57:24 IST" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="Reports()[pri:0, instance:task24.TC1Signuptestclass@7ce026d3]" started-at="2024-12-28T03:58:11 IST" name="Reports" finished-at="2024-12-28T03:58:11 IST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reports -->
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:task24.TC1Signuptestclass@1caa0244]" started-at="2024-12-28T02:57:24 IST" name="browserLaunch" finished-at="2024-12-28T02:57:27 IST" duration-ms="2802" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:task24.TC1Signuptestclass@7ce026d3]" started-at="2024-12-28T03:58:11 IST" name="browserLaunch" finished-at="2024-12-28T03:58:15 IST" duration-ms="4424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:task24.TC1Signuptestclass@1caa0244]" started-at="2024-12-28T02:57:27 IST" name="setup" finished-at="2024-12-28T02:57:27 IST" depends-on-methods="task24.basedemoblaze.browserLaunch" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:task24.TC1Signuptestclass@7ce026d3]" started-at="2024-12-28T03:58:15 IST" name="setup" finished-at="2024-12-28T03:58:15 IST" depends-on-methods="task24.basedemoblaze.browserLaunch" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testdetails()[pri:0, instance:task24.TC1Signuptestclass@1caa0244]" started-at="2024-12-28T02:57:27 IST" name="testdetails" finished-at="2024-12-28T02:57:27 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="testdetails()[pri:0, instance:task24.TC1Signuptestclass@7ce026d3]" started-at="2024-12-28T03:58:15 IST" name="testdetails" finished-at="2024-12-28T03:58:15 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testdetails -->
-        <test-method signature="Signup()[pri:1, instance:task24.TC1Signuptestclass@1caa0244]" started-at="2024-12-28T02:57:27 IST" name="Signup" finished-at="2024-12-28T02:57:29 IST" duration-ms="1605" status="PASS">
+        <test-method signature="Signup()[pri:1, instance:task24.TC1Signuptestclass@7ce026d3]" started-at="2024-12-28T03:58:15 IST" name="Signup" finished-at="2024-12-28T03:58:17 IST" duration-ms="1546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Signup -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:task24.TC1Signuptestclass@1caa0244]" started-at="2024-12-28T02:57:29 IST" name="closebrowser" finished-at="2024-12-28T02:57:29 IST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:task24.TC1Signuptestclass@7ce026d3]" started-at="2024-12-28T03:58:18 IST" name="closebrowser" finished-at="2024-12-28T03:58:18 IST" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="reportClose()[pri:0, instance:task24.TC1Signuptestclass@1caa0244]" started-at="2024-12-28T02:57:29 IST" name="reportClose" finished-at="2024-12-28T02:57:29 IST" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:task24.TC1Signuptestclass@7ce026d3]" started-at="2024-12-28T03:58:18 IST" name="reportClose" finished-at="2024-12-28T03:58:19 IST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportClose -->
